@@ -1,0 +1,474 @@
+$hoverblue: #193a6f;
+$unblack: #151515;
+$borderguard: #999;
+
+#sitehead {
+    position: absolute;
+    top: 20px;
+    font-family: "Times New Roman", serif;
+    border: solid 1px $borderguard;
+    border-radius: 0px;
+    width: 5.2em;
+    padding-left: 7px;
+    padding-right: 6px;
+    padding-bottom: 5px;
+    padding-top: 2px;
+    background-color: $unblack;
+    overflow: hidden;
+}
+
+a.logo {
+    color: transparent;
+    text-decoration: none;
+}
+
+div.logo {
+    width: 187px;
+    height: 48px;
+}
+
+img.logo {
+    position: relative;
+    width: 175px;
+    height: 39px;
+    top: 5px;
+    left: 7px;
+    z-index: 10;
+}
+
+body {
+    margin-left: 30pt;
+    margin-top: 30pt;
+    color: white;    
+    background-color: #272727;
+}
+
+body#splash {
+    background: url(/nwoods3.png) no-repeat;
+    background-size: 100%;   
+    background-color: #141C06;    
+}
+
+
+.omnimenu {
+    position: absolute;
+    left: 163pt;
+    top: 40.5pt;
+    background-color: none;
+}
+
+h4.skogardef {
+    font-weight: bold;
+    margin-bottom: 3pt;
+    margin-top: 0pt;
+    margin-left: 0px;
+    font-style: italic;
+    font-size: 16;
+}
+
+.skogardef {
+    margin-left: 0pt;
+    width: 400;
+    text-align: justify;
+    font-family: "times new roman";
+}
+
+div.starter {
+    position: relative;
+    top: 10px;
+}
+
+.contact {
+    margin-left: 0pt;
+    width: 322;
+    text-align: justify;
+    font-family: "times new roman";
+}
+
+li.contact > h4 {
+    font-family: sans-serif;
+    font-size: 10pt;
+    font-weight: lighter;
+}
+
+li.contact {
+    margin-left: -25;
+}
+
+@media screen and (max-width: 767px) {
+    .contact {
+        margin-left: 0pt;
+        width: 240;
+        text-align: justify;
+        font-family: "times new roman";
+    }
+}
+
+span#etag {
+    font-size: 16;
+    font-family: "times new roman";
+}
+
+.linebreak {
+    border-bottom: thin $borderguard solid;
+    margin-bottom: 10px;
+    width: 400px;
+}
+
+.propic {
+    position: absolute;
+    float: right;
+    left: 470px;
+    top: 100px;    
+}
+
+.resume {
+    margin-top: 12px;
+}
+
+@media screen and (max-width: 767px) {
+    .resume > img {
+        width: 100%;
+    }
+}
+
+.navbar-default .navbar-nav > li > a {
+    padding: 4px 10px;
+    margin: 0px 6px 0px 0px;
+    font: 0.9em sans-serif;
+    font-weight: bold;
+    background-color: $unblack;
+    border: solid 1px $borderguard;
+    border-radius: 0px;
+    color: white; 
+}
+
+nav.navbar {
+    background-color: rgba(39, 39, 39, 0);
+    border: none;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  background-color: $hoverblue;
+  color: white;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover {
+  background-color: $hoverblue;
+  color: white; 
+}
+
+.navbar-header {
+    position: absolute;
+    left: 175pt;
+    top: 30pt;    
+}
+
+.navbar-toggle .icon-bar {
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 3px;
+    margin-bottom: 8px;
+    margin-top: 9px;
+    left: -2px;
+    top: -8px;
+}
+
+button#hamburger {
+    position: absolute;
+    top: -46.5pt;
+    left: -163pt;
+    height: 3.4em;
+    width: 3.4em;
+    background-color: $unblack;
+    border-radius: 0px;    
+    border: solid 1px $borderguard;
+    z-index: 10;
+}
+
+button#hamburger:hover {
+    background-color: $hoverblue;    
+}
+
+@media screen and (max-width: 767px) {
+    ul.nav.navbar-nav {
+        position: relative;
+        top: 30px;
+        margin: 7px 6px 40px -9px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+}
+
+.navbar-collapse {
+    position: relative;
+    top: -1px;
+    left: -17px;
+    padding-right: 15px;
+    padding-left: 15px;
+    overflow-x: none;
+    border-top: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    z-index: 5;
+}
+
+.navbar-collapse.in {
+    overflow-y: hidden;
+}
+
+#portfolio {
+    position: relative;
+    z-index: 0;
+}
+
+#portnav > li > a {
+    position: relative;
+    width: 110px;
+    top: -37px;
+    left: 7pt;
+    font-size: 12px;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-top: 3px;
+    margin-bottom: 7px;
+    z-index: 2;
+}
+
+@media screen and (min-width: 768px) {
+    #portnav > li > a {
+        position: relative;
+        width: 110px;
+        top: 4px;
+        left: 0pt;
+        font-size: 12px;
+        padding-left: 6px;
+        padding-right: 6px;
+        margin-top: 3px;
+        margin-bottom: 7px;
+        z-index: 2;
+    }
+}
+
+@media (min-width: 768px) {
+    #portnav > li {
+        float: none;
+    }
+}
+
+#gallery {
+    position: relative;
+    z-index: 0;    
+}
+
+div#sickvert {
+    position: absolute;
+    border-left: 2px $borderguard solid;
+    border-radius: 0px;
+    height: 218px;
+    top: -23px;
+    left: 8px;
+}
+
+@media screen and (max-width: 767px) {
+    div#sickvert {
+        position: absolute;
+        border-left: 2px $borderguard solid;
+        border-radius: 0px;
+        height: 218px;
+        top: -78px;
+        left: 8px;
+    }
+}
+
+#galnav > li > a {
+    position: relative;
+    width: 92px;
+    top: -114px;
+    left: 20pt;
+    font-size: 12px;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-top: 3px;
+    margin-bottom: 7px;
+    z-index: 2;
+    text-align: right;
+    background-color: darken($borderguard, 30%); 
+}
+
+@media screen and (min-width: 768px) {
+    #galnav > li > a {
+        position: relative;
+        width: 92px;
+        top: -18px;
+        left: 13.5pt;
+        font-size: 12px;
+        padding-left: 6px;
+        padding-right: 6px;
+        margin-top: 3px;
+        margin-bottom: 7px;
+        z-index: 2;
+        background-color: darken($borderguard, 30%);
+    }
+}
+
+@media (min-width: 768px) {
+    #galnav > li {
+        float: none;
+    }
+}
+
+#galnav > li > a:hover {
+    background-color: $hoverblue;
+    color: white;
+}
+
+#galnav > .open > a,
+#galnav > .open > a:focus,
+#galnav > .open > a:hover {
+    background-color: $hoverblue;
+    color: white; 
+}
+
+#galnav > li.active > a {
+    background-color: $borderguard;
+    color: $unblack;
+}
+
+@media screen and (min-width: 768px) {
+    .navbar-collapse {
+        position: relative;
+        top: 9.5px;
+        left: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+        overflow-x: none;
+        border-top: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        z-index: 5;
+    }
+}
+
+#darkbox {
+    position: absolute;
+    left: 157px;
+    right: 24px;
+    top: 94px;
+    height: auto;
+    width: auto;
+    background-color: $unblack;
+    border: solid 1px $borderguard;
+}
+
+#darkbox > div.Post {
+    position: relative;
+    padding: 12px;
+    padding-top: 24px;
+    padding-bottom: 0px;
+    width: auto;    
+    padding-right: 12px;
+}
+
+#darkbox > div.Post > img.Post {
+    position: relative;
+    width: auto;
+    max-width: 100%;    
+}
+
+#darkbox > div.Post > p.Post {
+    position: relative;
+    float: left;
+    display: block;
+    padding-top: 5px;
+    font-size: 9pt;
+    font-family: sans-serif;
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid $borderguard;    
+}
+
+span.title {
+    font-style: italic;
+    font-family: "Times New Roman", Serif;
+    font-size: 14pt;
+}
+
+span.medium {
+    font-style: italic;
+}
+
+@media screen and (max-width: 767px) {
+    #darkbox {
+        position: absolute;
+        left: 40px;
+        right: 24px;
+        top: 157px;
+        height: auto;
+        width: auto;
+        background-color: $unblack;
+        border: solid 1px $borderguard;
+    }
+}
+
+#ingal {
+    position: absolute;
+    left: 157px;
+    right: 24px;
+    top: 94px;
+    height: auto;
+    width: auto;
+    max-width: 624px;
+    background-color: $unblack;
+    border: solid 1px $borderguard;
+}
+
+#ingal > div.Post {
+    position: relative;
+    padding: 12px;
+    padding-top: 24px;
+    padding-bottom: 0px;
+    width: auto;    
+    padding-right: 12px;
+}
+
+#ingal > div.Post > img.Post {
+    position: relative;
+    width: auto;
+    max-width: 100%;    
+}
+
+#ingal > div.Post > p.Post {
+    position: relative;
+    float: left;
+    display: block;
+    padding-top: 5px;
+    font-size: 9pt;
+    font-family: sans-serif;
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid $borderguard;    
+}
+
+#presentation {
+    position: absolute;
+    left: 24px;
+    right: 24px;
+    top: 24px;
+    padding-bottom: 12px;
+    height: auto;
+    width: auto;
+    background-color: $unblack;
+    border: solid 1px $borderguard;
+}
+
+#presentation > div.Post > img.Post {
+    position: relative;
+    width: auto;
+    top: 15px;
+    padding-bottom: 15px;
+    max-width: 100%;    
+}

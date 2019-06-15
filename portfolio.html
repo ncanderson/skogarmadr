@@ -1,0 +1,110 @@
+<html>
+    <head>
+        <link rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+            integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+            crossorigin="anonymous"/>
+        
+        <link rel="stylesheet" href="homepage.css">
+        <link href='https://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>sk&oacute;garma&eth;r &#9653; portfolio</title>
+    </head>
+    <body>
+        <div class="logo">
+            <a href="/index.html" class="logo">
+                <img src="sitelogo_transparent.png" class="logo">
+                <h1 id="sitehead">sk&oacute;garma&eth;r</h1>
+            </a>
+        </div> 
+            <div class="omnimenu">
+            <nav class="navbar navbar-default" role="navigation">
+                <div class="navbar-header">
+                <!--  
+                  This button will be shown if the screen size is too small, providing a better user interface on a mobile device
+                  Note the value of data-target is a CSS selector; in this case the ID nav-bar must match the ID of the div
+                  element below that contains the navigation links
+                  -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" id="hamburger" data-target="#omnibar">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>                
+                  </div>
+                  <!-- Collect the nav links, forms, and other content for toggling -->
+                  <div class="collapse navbar-collapse" id="omnibar">
+                    <ul class="nav navbar-nav">
+                  <!--  Each menu item is represented by an <li> element; only 1 should have the class active applied to it  -->
+                      <li><a href="index.html">Home</a></li>
+                      <li class="active"><a href="portfolio.html">Portfolio</a></li>
+                      <li><a href="resume.html">R&eacute;sum&eacute;</a></li>    
+                      <li><a href="about.html">About</a></li>
+                      <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                  </div>
+                  <!-- /.navbar-collapse -->
+                </nav>
+        </div>
+        
+        <div>
+            <nav class="navbar navbar-default" id="portfolio" role="navigation">
+                <div>
+                    <ul class="nav navbar-nav" id="portnav">
+                        <li class="active"><a href="">Streamline view</a></li>
+                        <li><a href="gallery.html">Gallery view</a></li>
+                    </ul>
+                </div> 
+            </nav>
+        </div>    
+        <div id="darkbox" class="container">
+            <div  class="Post">
+                <img src="/portfolio/norwegian%20wood.png" width="600px" class="Post">
+                <p class="Post"><span class="title">Norwegian Wood</span>
+                    <br/><span class="medium">Digital painting (Adobe Photoshop Elements + Bamboo tablet).</span> 
+                    <br/>Photo reference of a pine forest in Norway.                    
+                </p>
+            </div>
+            <div  class="Post">
+                <img src="/portfolio/drawings/the%20cross.jpg" width="600px" class="Post">
+                <p class="Post"><span class="title">The Cross</span>
+                    <br/><span class="medium">Pencil and watercolors</span>
+                    <br/>Type X sword with brazil nut pommel. Referenced from my very own Hanwei-Tinker Type X sword with brazil nut pommel. 
+                </p>
+            </div>
+            <div  class="Post">
+                <img src="/portfolio/drawings/artefact.jpg" width="600" class="Post">
+                <p class="Post"><span class="title">Artefact</span>
+                    <br/><span class="medium">Pencil and watercolors </span>
+                    <br/>Referenced from a penannular brooch that I hammered out from a steel trash can handle. 
+                </p>
+            </div>
+            <div  class="Post">
+                <img src="/portfolio/aqueduct.png" width="600px" class="Post">
+                <p class="Post"><span class="title">Old Aqueduct</span>
+                    <br/><span class="medium">Digital collage (Adobe Photoshop Elements + Bamboo tablet).</span> 
+                    <br/>Photo of circa 1870 oil painting "<a href="http://www.fenimoreartmuseum.org/node/1560">Claudian Aqueduct</a>" by John Linton Chapman, combined with <a href="http://ghoulshavemorefun.tumblr.com/image/127775081419">photo</a> of Icelandic landscape by tumblr user ghoulshavemorefun.
+                </p>
+            </div>
+            <div  class="Post">
+                <img src="/portfolio/digital/Josh%20Wedin%20commission%20-%202.png" width="600" class="Post">
+                <p class="Post"><span class="title">Sir Joshua of Wedin</span>
+                    <br/><span class="medium">Adobe Photoshop Elements + Bamboo tablet</span>
+                    <br/>This was a commission to extrapolate the client's model "signature figure" into a full-size, realistic figure study. I used 14th century armor as reference for the armor details, but made sure they matched the figure's established styled and colors.
+                </p>
+            </div>
+            <div  class="Post">
+                <img src="/portfolio/paintings/Final.jpg" width="600px" class="Post">
+                <p class="Post"><span class="title">hw&#xE6;t</span>
+                    <br/><span class="medium">Acrylic paint</span>
+                    <br/>Focused around the opening word of <span class="medium">Beowulf</span>, this piece is meant to illustrate a beginning, like the beginning of a story, looking onward towards what is to come. Replicas of gear approximately contemporary with <span class="medium">Beowulf</span> were used as reference (also a stump).
+                </p>
+            </div>  
+        </div>    
+        <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous">
+    </script>
+    </body>
+</html>

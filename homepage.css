@@ -1,0 +1,461 @@
+/* line 5, J:/skogarmadr/homepage.scss */
+#sitehead {
+  position: absolute;
+  top: 20px;
+  font-family: "Times New Roman", serif;
+  border: solid 1px #999;
+  border-radius: 0px;
+  width: 5.2em;
+  padding-left: 7px;
+  padding-right: 6px;
+  padding-bottom: 5px;
+  padding-top: 2px;
+  background-color: #151515;
+  overflow: hidden; }
+
+/* line 20, J:/skogarmadr/homepage.scss */
+a.logo {
+  color: transparent;
+  text-decoration: none; }
+
+/* line 25, J:/skogarmadr/homepage.scss */
+div.logo {
+  width: 187px;
+  height: 48px; }
+
+/* line 30, J:/skogarmadr/homepage.scss */
+img.logo {
+  position: relative;
+  width: 175px;
+  height: 39px;
+  top: 5px;
+  left: 7px;
+  z-index: 10; }
+
+/* line 39, J:/skogarmadr/homepage.scss */
+body {
+  margin-left: 30pt;
+  margin-top: 30pt;
+  color: white;
+  background-color: #272727; }
+
+/* line 46, J:/skogarmadr/homepage.scss */
+body#splash {
+  background: url(/nwoods3.png) no-repeat;
+  background-size: 100%;
+  background-color: #141C06; }
+
+/* line 53, J:/skogarmadr/homepage.scss */
+.omnimenu {
+  position: absolute;
+  left: 163pt;
+  top: 40.5pt;
+  background-color: none; }
+
+/* line 60, J:/skogarmadr/homepage.scss */
+h4.skogardef {
+  font-weight: bold;
+  margin-bottom: 3pt;
+  margin-top: 0pt;
+  margin-left: 0px;
+  font-style: italic;
+  font-size: 16; }
+
+/* line 69, J:/skogarmadr/homepage.scss */
+.skogardef {
+  margin-left: 0pt;
+  width: 400;
+  text-align: justify;
+  font-family: "times new roman"; }
+
+/* line 76, J:/skogarmadr/homepage.scss */
+div.starter {
+  position: relative;
+  top: 10px; }
+
+/* line 81, J:/skogarmadr/homepage.scss */
+.contact {
+  margin-left: 0pt;
+  width: 322;
+  text-align: justify;
+  font-family: "times new roman"; }
+
+/* line 88, J:/skogarmadr/homepage.scss */
+li.contact > h4 {
+  font-family: sans-serif;
+  font-size: 10pt;
+  font-weight: lighter; }
+
+/* line 94, J:/skogarmadr/homepage.scss */
+li.contact {
+  margin-left: -25; }
+
+@media screen and (max-width: 767px) {
+  /* line 99, J:/skogarmadr/homepage.scss */
+  .contact {
+    margin-left: 0pt;
+    width: 240;
+    text-align: justify;
+    font-family: "times new roman"; } }
+
+/* line 107, J:/skogarmadr/homepage.scss */
+span#etag {
+  font-size: 16;
+  font-family: "times new roman"; }
+
+/* line 112, J:/skogarmadr/homepage.scss */
+.linebreak {
+  border-bottom: thin #999 solid;
+  margin-bottom: 10px;
+  width: 400px; }
+
+/* line 118, J:/skogarmadr/homepage.scss */
+.propic {
+  position: absolute;
+  float: right;
+  left: 470px;
+  top: 100px; }
+
+/* line 125, J:/skogarmadr/homepage.scss */
+.resume {
+  margin-top: 12px; }
+
+@media screen and (max-width: 767px) {
+  /* line 130, J:/skogarmadr/homepage.scss */
+  .resume > img {
+    width: 100%; } }
+
+/* line 135, J:/skogarmadr/homepage.scss */
+.navbar-default .navbar-nav > li > a {
+  padding: 4px 10px;
+  margin: 0px 6px 0px 0px;
+  font: 0.9em sans-serif;
+  font-weight: bold;
+  background-color: #151515;
+  border: solid 1px #999;
+  border-radius: 0px;
+  color: white; }
+
+/* line 146, J:/skogarmadr/homepage.scss */
+nav.navbar {
+  background-color: rgba(39, 39, 39, 0);
+  border: none; }
+
+/* line 151, J:/skogarmadr/homepage.scss */
+.navbar-default .navbar-nav > li > a:hover {
+  background-color: #193a6f;
+  color: white; }
+
+/* line 158, J:/skogarmadr/homepage.scss */
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover {
+  background-color: #193a6f;
+  color: white; }
+
+/* line 163, J:/skogarmadr/homepage.scss */
+.navbar-header {
+  position: absolute;
+  left: 175pt;
+  top: 30pt; }
+
+/* line 169, J:/skogarmadr/homepage.scss */
+.navbar-toggle .icon-bar {
+  position: relative;
+  display: block;
+  width: 30px;
+  height: 3px;
+  margin-bottom: 8px;
+  margin-top: 9px;
+  left: -2px;
+  top: -8px; }
+
+/* line 180, J:/skogarmadr/homepage.scss */
+button#hamburger {
+  position: absolute;
+  top: -46.5pt;
+  left: -163pt;
+  height: 3.4em;
+  width: 3.4em;
+  background-color: #151515;
+  border-radius: 0px;
+  border: solid 1px #999;
+  z-index: 10; }
+
+/* line 192, J:/skogarmadr/homepage.scss */
+button#hamburger:hover {
+  background-color: #193a6f; }
+
+@media screen and (max-width: 767px) {
+  /* line 197, J:/skogarmadr/homepage.scss */
+  ul.nav.navbar-nav {
+    position: relative;
+    top: 30px;
+    margin: 7px 6px 40px -9px;
+    padding-top: 4px;
+    padding-bottom: 4px; } }
+
+/* line 206, J:/skogarmadr/homepage.scss */
+.navbar-collapse {
+  position: relative;
+  top: -1px;
+  left: -17px;
+  padding-right: 15px;
+  padding-left: 15px;
+  overflow-x: none;
+  border-top: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  z-index: 5; }
+
+/* line 219, J:/skogarmadr/homepage.scss */
+.navbar-collapse.in {
+  overflow-y: hidden; }
+
+/* line 223, J:/skogarmadr/homepage.scss */
+#portfolio {
+  position: relative;
+  z-index: 0; }
+
+/* line 228, J:/skogarmadr/homepage.scss */
+#portnav > li > a {
+  position: relative;
+  width: 110px;
+  top: -37px;
+  left: 7pt;
+  font-size: 12px;
+  padding-left: 6px;
+  padding-right: 6px;
+  margin-top: 3px;
+  margin-bottom: 7px;
+  z-index: 2; }
+
+@media screen and (min-width: 768px) {
+  /* line 242, J:/skogarmadr/homepage.scss */
+  #portnav > li > a {
+    position: relative;
+    width: 110px;
+    top: 4px;
+    left: 0pt;
+    font-size: 12px;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-top: 3px;
+    margin-bottom: 7px;
+    z-index: 2; } }
+
+@media (min-width: 768px) {
+  /* line 257, J:/skogarmadr/homepage.scss */
+  #portnav > li {
+    float: none; } }
+
+/* line 262, J:/skogarmadr/homepage.scss */
+#gallery {
+  position: relative;
+  z-index: 0; }
+
+/* line 267, J:/skogarmadr/homepage.scss */
+div#sickvert {
+  position: absolute;
+  border-left: 2px #999 solid;
+  border-radius: 0px;
+  height: 218px;
+  top: -23px;
+  left: 8px; }
+
+@media screen and (max-width: 767px) {
+  /* line 277, J:/skogarmadr/homepage.scss */
+  div#sickvert {
+    position: absolute;
+    border-left: 2px #999 solid;
+    border-radius: 0px;
+    height: 218px;
+    top: -78px;
+    left: 8px; } }
+
+/* line 287, J:/skogarmadr/homepage.scss */
+#galnav > li > a {
+  position: relative;
+  width: 92px;
+  top: -114px;
+  left: 20pt;
+  font-size: 12px;
+  padding-left: 6px;
+  padding-right: 6px;
+  margin-top: 3px;
+  margin-bottom: 7px;
+  z-index: 2;
+  text-align: right;
+  background-color: #4d4d4d; }
+
+@media screen and (min-width: 768px) {
+  /* line 303, J:/skogarmadr/homepage.scss */
+  #galnav > li > a {
+    position: relative;
+    width: 92px;
+    top: -18px;
+    left: 13.5pt;
+    font-size: 12px;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-top: 3px;
+    margin-bottom: 7px;
+    z-index: 2;
+    background-color: #4d4d4d; } }
+
+@media (min-width: 768px) {
+  /* line 319, J:/skogarmadr/homepage.scss */
+  #galnav > li {
+    float: none; } }
+
+/* line 324, J:/skogarmadr/homepage.scss */
+#galnav > li > a:hover {
+  background-color: #193a6f;
+  color: white; }
+
+/* line 331, J:/skogarmadr/homepage.scss */
+#galnav > .open > a,
+#galnav > .open > a:focus,
+#galnav > .open > a:hover {
+  background-color: #193a6f;
+  color: white; }
+
+/* line 336, J:/skogarmadr/homepage.scss */
+#galnav > li.active > a {
+  background-color: #999;
+  color: #151515; }
+
+@media screen and (min-width: 768px) {
+  /* line 342, J:/skogarmadr/homepage.scss */
+  .navbar-collapse {
+    position: relative;
+    top: 9.5px;
+    left: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    overflow-x: none;
+    border-top: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    z-index: 5; } }
+
+/* line 356, J:/skogarmadr/homepage.scss */
+#darkbox {
+  position: absolute;
+  left: 157px;
+  right: 24px;
+  top: 94px;
+  height: auto;
+  width: auto;
+  background-color: #151515;
+  border: solid 1px #999; }
+
+/* line 367, J:/skogarmadr/homepage.scss */
+#darkbox > div.Post {
+  position: relative;
+  padding: 12px;
+  padding-top: 24px;
+  padding-bottom: 0px;
+  width: auto;
+  padding-right: 12px; }
+
+/* line 376, J:/skogarmadr/homepage.scss */
+#darkbox > div.Post > img.Post {
+  position: relative;
+  width: auto;
+  max-width: 100%; }
+
+/* line 382, J:/skogarmadr/homepage.scss */
+#darkbox > div.Post > p.Post {
+  position: relative;
+  float: left;
+  display: block;
+  padding-top: 5px;
+  font-size: 9pt;
+  font-family: sans-serif;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #999; }
+
+/* line 394, J:/skogarmadr/homepage.scss */
+span.title {
+  font-style: italic;
+  font-family: "Times New Roman", Serif;
+  font-size: 14pt; }
+
+/* line 400, J:/skogarmadr/homepage.scss */
+span.medium {
+  font-style: italic; }
+
+@media screen and (max-width: 767px) {
+  /* line 405, J:/skogarmadr/homepage.scss */
+  #darkbox {
+    position: absolute;
+    left: 40px;
+    right: 24px;
+    top: 157px;
+    height: auto;
+    width: auto;
+    background-color: #151515;
+    border: solid 1px #999; } }
+
+/* line 417, J:/skogarmadr/homepage.scss */
+#ingal {
+  position: absolute;
+  left: 157px;
+  right: 24px;
+  top: 94px;
+  height: auto;
+  width: auto;
+  max-width: 624px;
+  background-color: #151515;
+  border: solid 1px #999; }
+
+/* line 429, J:/skogarmadr/homepage.scss */
+#ingal > div.Post {
+  position: relative;
+  padding: 12px;
+  padding-top: 24px;
+  padding-bottom: 0px;
+  width: auto;
+  padding-right: 12px; }
+
+/* line 438, J:/skogarmadr/homepage.scss */
+#ingal > div.Post > img.Post {
+  position: relative;
+  width: auto;
+  max-width: 100%; }
+
+/* line 444, J:/skogarmadr/homepage.scss */
+#ingal > div.Post > p.Post {
+  position: relative;
+  float: left;
+  display: block;
+  padding-top: 5px;
+  font-size: 9pt;
+  font-family: sans-serif;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #999; }
+
+/* line 456, J:/skogarmadr/homepage.scss */
+#presentation {
+  position: absolute;
+  left: 24px;
+  right: 24px;
+  top: 24px;
+  padding-bottom: 12px;
+  height: auto;
+  width: auto;
+  background-color: #151515;
+  border: solid 1px #999; }
+
+/* line 468, J:/skogarmadr/homepage.scss */
+#presentation > div.Post > img.Post {
+  position: relative;
+  width: auto;
+  top: 15px;
+  padding-bottom: 15px;
+  max-width: 100%; }
+
+/*# sourceMappingURL=homepage.css.map */

@@ -1,0 +1,117 @@
+<html>
+    <head>
+        <link rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+            integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+            crossorigin="anonymous"/>
+        
+        <link rel="stylesheet" href="homepage.css">
+        <link href='https://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>sk&oacute;garma&eth;r &#9653; portfolio</title>
+    </head>
+    <body>
+        <div class="logo">
+            <a href="/index.html" class="logo">
+                <img src="sitelogo_transparent.png" class="logo">
+                <h1 id="sitehead">sk&oacute;garma&eth;r</h1>
+            </a>
+        </div>       
+                
+        <div class="omnimenu">
+            <nav class="navbar navbar-default" role="navigation">
+                <div class="navbar-header">
+                <!--  
+                  This button will be shown if the screen size is too small, providing a better user interface on a mobile device
+                  Note the value of data-target is a CSS selector; in this case the ID nav-bar must match the ID of the div
+                  element below that contains the navigation links
+                  -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" id="hamburger" data-target="#omnibar">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>                
+                  </div>
+                  <!-- Collect the nav links, forms, and other content for toggling -->
+                  <div class="collapse navbar-collapse" id="omnibar">
+                    <ul class="nav navbar-nav">
+                  <!--  Each menu item is represented by an <li> element; only 1 should have the class active applied to it  -->
+                      <li><a href="index.html">Home</a></li>
+                      <li class="active"><a href="portfolio.html">Portfolio</a></li>
+                      <li><a href="resume.html">R&eacute;sum&eacute;</a></li>      
+                      <li><a href="about.html">About</a></li>
+                      <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                  </div>
+                  <!-- /.navbar-collapse -->
+                </nav>
+        </div>
+        
+        <div>
+            <nav class="navbar navbar-default" id="portfolio" role="navigation">
+                <div>
+                    <ul class="nav navbar-nav" id="portnav">
+                        <li><a href="portfolio.html">Streamline view</a></li>
+                        <li class="active"><a href="gallery.html">Gallery view</a></li>
+                    </ul>
+                </div> 
+            </nav>
+        </div>
+        <div>
+            <nav class="navbar navbar-default" id="gallery" role="navigation">
+                <div>
+                    <div id="sickvert"></div>
+                    <ul class="nav navbar-nav" id="galnav">
+                        <li><a href="drawings.html">Drawings</a></li>
+                        <li><a href="paintings.html">Paintings</a></li>
+                        <li><a href="digital.html">Digital work</a></li>
+                        <li><a href="sculpture.html">Sculpture</a></li>
+                        <li><a href="scenery.html">Scenery</a></li>
+                        <li class="active"><a href="objects.html">Object design</a></li>
+                        <li><a href="photography.html">Photography</a></li>
+                    </ul>
+                </div> 
+            </nav>
+        </div> 
+        <div id="ingal" class="container">
+            <div class="Post">
+                <img src="/portfolio/objects/table1.JPG" width="600px" class="Post">
+            </div>
+            <div class="Post">
+                <img src="/portfolio/objects/table2.JPG" width="600px" class="Post">
+            </div>
+            <div class="Post">
+                <img src="/portfolio/objects/table3.JPG" width="600px" class="Post">
+            </div>
+            <div class="Post">
+                <img src="/portfolio/objects/table4.JPG" width="600px" class="Post">            
+                <p class="Post"><span class="title">Printer table</span>
+                    <br/><span class="medium">Welded metal supports with AB 3/4 plywood. Clear coat varnish for rust, rot, and scratch protection.</span>
+                    <br/>I was in a small dorm room, and needed a table for my printer, as well as a small work surface to expand my desk space, but I needed to keep the scanner                          lid free on the printer, and I didn't want to lose storage space. So I designed this. Ironically, by the time I finished making it, I had moved into an                            apartment. But it still works out pretty well.
+                </p>
+            </div>
+            <div class="Post">
+                <img src="/portfolio/objects/tableplanning1.png" width="600px" class="Post">
+            </div>
+            <div class="Post">
+                <img src="/portfolio/objects/tableplanning2.jpg" width="600px" class="Post">
+            </div>
+            <div class="Post">
+                <img src="/portfolio/objects/tableplanning3.png" width="600px" class="Post">
+            </div>
+            <div class="Post">
+                <img src="/portfolio/objects/tableplanning4.png" width="600px" class="Post">
+                <p class="Post"><span class="title">Printer table (planning stage)</span>
+                    <br/><span class="medium">Pen on cardboard, Google SketchUp</span>
+                    <br/>The first pen sketch, then a 3D model to picture it more spatially. A few things changed (The metal was originally meant to be more plywood, and more                              support was added for better strength) but otherwise it remained fairly close to that original concept.
+                </p>
+            </div>
+        </div>    
+        <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous">
+    </script>     
+    </body>
+</html>

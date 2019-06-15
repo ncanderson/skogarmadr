@@ -1,0 +1,127 @@
+<html>
+    <head>
+        <link rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+            integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+            crossorigin="anonymous"/>
+        
+        <link rel="stylesheet" href="homepage.css">
+        <link href='https://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>sk&oacute;garma&eth;r &#9653; portfolio</title>
+    </head>
+    <body>
+        <div class="logo">
+            <a href="/index.html" class="logo">
+                <img src="sitelogo_transparent.png" class="logo">
+                <h1 id="sitehead">sk&oacute;garma&eth;r</h1>
+            </a>
+        </div>       
+                
+        <div class="omnimenu">
+            <nav class="navbar navbar-default" role="navigation">
+                <div class="navbar-header">
+                <!--  
+                  This button will be shown if the screen size is too small, providing a better user interface on a mobile device
+                  Note the value of data-target is a CSS selector; in this case the ID nav-bar must match the ID of the div
+                  element below that contains the navigation links
+                  -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" id="hamburger" data-target="#omnibar">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>                
+                  </div>
+                  <!-- Collect the nav links, forms, and other content for toggling -->
+                  <div class="collapse navbar-collapse" id="omnibar">
+                    <ul class="nav navbar-nav">
+                  <!--  Each menu item is represented by an <li> element; only 1 should have the class active applied to it  -->
+                      <li><a href="index.html">Home</a></li>
+                      <li class="active"><a href="portfolio.html">Portfolio</a></li>
+                      <li><a href="resume.html">R&eacute;sum&eacute;</a></li>     
+                      <li><a href="about.html">About</a></li>
+                      <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                  </div>
+                  <!-- /.navbar-collapse -->
+                </nav>
+        </div>
+        
+        <div>
+            <nav class="navbar navbar-default" id="portfolio" role="navigation">
+                <div>
+                    <ul class="nav navbar-nav" id="portnav">
+                        <li><a href="portfolio.html">Streamline view</a></li>
+                        <li class="active"><a href="gallery.html">Gallery view</a></li>
+                    </ul>
+                </div> 
+            </nav>
+        </div>
+        <div>
+            <nav class="navbar navbar-default" id="gallery" role="navigation">
+                <div>
+                    <div id="sickvert"></div>
+                    <ul class="nav navbar-nav" id="galnav">
+                        <li class="active"><a href="drawings.html">Drawings</a></li>
+                        <li><a href="paintings.html">Paintings</a></li>
+                        <li><a href="digital.html">Digital work</a></li>
+                        <li><a href="sculpture.html">Sculpture</a></li>
+                        <li><a href="scenery.html">Scenery</a></li>
+                        <li><a href="objects.html">Object design</a></li>
+                        <li><a href="photography.html">Photography</a></li>
+                    </ul>
+                </div> 
+            </nav>
+        </div> 
+        <div id="ingal" class="container">
+            <div  class="Post">
+                <img src="/portfolio/drawings/the%20cross.jpg" width="600px" class="Post">
+                <p class="Post"><span class="title">The Cross</span>
+                    <br/><span class="medium">Pencil and watercolors</span>
+                    <br/>Type X sword with brazil nut pommel. Referenced from my very own Hanwei-Tinker Type X sword with brazil nut pommel. 
+                </p>
+            </div>
+            <div  class="Post">
+                <img src="/portfolio/drawings/amulet.jpg" width="600px" class="Post">
+                <p class="Post"><span class="title">Amulet</span>
+                    <br/><span class="medium">Pencil and watercolors </span>
+                    <br/>Referenced from a Thor's hammer pendant I made in a ceramics class.
+                </p>
+            </div>
+            <div  class="Post">
+                <img src="/portfolio/drawings/artefact.jpg" width="600" class="Post">
+                <p class="Post"><span class="title">Artefact</span>
+                    <br/><span class="medium">Pencil and watercolors </span>
+                    <br/>Referenced from a penannular brooch that I hammered out from a steel trash can handle. 
+                </p>
+            </div>
+            <div  class="Post">
+                <img src="/portfolio/drawings/docked.jpg" width="600" class="Post">
+                <p class="Post"><span class="title">Docked</span>
+                    <br/><span class="medium">Pencil and watercolors </span>
+                    <br/>Photo reference from a reconstruction longship sitting at the end of a rocky pier.
+                </p>
+            </div>
+            <div  class="Post">
+                <img src="/portfolio/drawings/legionary.jpg" width="600" class="Post">
+                <p class="Post"><span class="title">Legionary</span>
+                    <br/><span class="medium">Pencil and watercolors</span> 
+                    <br/>Photo reference from a model Roman legionary figurine.  
+                </p>
+            </div>
+            <div  class="Post">
+                <img src="/portfolio/drawings/stiff%20drink.jpg" width="600" class="Post">
+                <p class="Post"><span class="title">Stiff Drink</span>
+                    <br/><span class="medium">Pencil and watercolors</span> 
+                    <br/>Referenced from a still life of various empty bottles. The liquid in the drawing was never present in the reference, and the "Black Daniel's" bottle was                          an ordinary bottle of Jack. 
+                </p>
+            </div>
+        </div>  
+        <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous">
+    </script>     
+    </body>
+</html>

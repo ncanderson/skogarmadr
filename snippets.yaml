@@ -1,0 +1,247 @@
+- trigger: css
+  scope: html
+  description: Style Tag
+  source: system
+  text: |
+        <style type="text/css">${1}</style>${2}
+
+- trigger: bs-carousel-slide
+  description: Adds the HTML for a new slide in a carousel
+  scope: html
+  mTime: 1456409263221
+  text: |
+        <div class="item">
+            <img src="${1}">
+            <div class="carousel-caption">
+                ${2:caption}
+            </div>
+        </div>
+
+- trigger: bs-carousel
+  description: Inserts the basic framework for a carousel in Bootstrap
+  scope: html
+  mTime: 1457621318293
+  text: |
+        <div id="${1}" class="carousel slide" data-ride="carousel">\\r
+          <!-- Indicators -->\\r
+          <ol class="carousel-indicators">\\r
+            <li data-target="#${1}" data-slide-to="0" class="active"></li>\\r
+          </ol>\\r
+        \\r
+          <!-- Wrapper for slides -->\\r
+          <div class="carousel-inner" role="listbox">\\r
+            <div class="item active">\\r
+              <img src="${2}">\\r
+              <div class="carousel-caption">\\r
+                ${3}\\r
+              </div>\\r
+            </div>\\r
+          </div>\\r
+        \\r
+          <!-- Controls -->\\r
+          <a class="left carousel-control" data-target="#${1}" role="button" data-slide="prev">\\r
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>\\r
+            <span class="sr-only">Previous</span>\\r
+          </a>\\r
+          \\r
+          <a class="right carousel-control" data-target="#${1}" role="button" data-slide="next">\\r
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>\\r
+            <span class="sr-only">Next</span>\\r
+          </a>\\r
+          \\r
+        </div>
+
+- trigger: bs-javascript
+  scope: html
+  mTime: 1457017767050
+  description: "Inserts the necessary script tags to use Bootstrap's Javascript components"
+  text: |
+        <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+                integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+                crossorigin="anonymous">
+        </script>
+
+- trigger: bs-link
+  description: "Insert a link element with an appropriate reference to Bootstrap's CSS"
+  scope: html
+  mTime: 1457017968545
+  text: |
+        <link rel="stylesheet"
+              href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+              integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+              crossorigin="anonymous"/>
+
+- trigger: doctype
+  scope: html
+  description: Boilerplate HTML
+  source: system
+  mTime: 1456426044500
+  text: |
+        <!doctype html>
+        <html>
+            <head>
+                <meta charset="utf-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <title>${1:Document Title}</title>
+            </head>
+            <body>
+                ${2}
+            </body>
+        </html>
+
+- trigger: img
+  scope: html
+  description: Dummy Image
+  source: system
+  mTime: 1450889354500
+  text: |
+        <img src="${1}" alt="${2}">
+
+- trigger: bs-carousel-indictor
+  description: Adds an indicator for a Bootstrap carousel
+  scope: html
+  mTime: 1456426132795
+  text: |
+        <li data-target="#${1}" data-slide-to="${2}"></li>
+
+- trigger: link
+  scope: html
+  description: Link Tag
+  source: system
+  text: |
+        <link rel="stylesheet" type="text/css" href="${1}">${2}
+
+- trigger: bs-tabs
+  description: Bootstrap tabbed pane
+  scope: html
+  mTime: 1457017846058
+  text: |
+        <ul class="nav nav-tabs">
+                    <li role="presentation" class="active">
+                        <a href="#${1}" data-toggle="tab" role="tab" aria-controls="${1}">
+                        ${2:Tab Label}
+                        </a>
+                    </li>
+                </ul>
+                
+                <div class="tab-content">
+                    <div class="tab-pane active" id="${1}">
+                        ${3:Tab Content}
+                    </div>
+                </div>
+
+- trigger: bs-tab
+  description: Individual Bootstrap  tab
+  scope: html
+  mTime: 1457018341384
+  text: |
+        <li role="presentation">
+                        <a href="#${1}" data-toggle="tab" role="tab" aria-controls="${1}">
+                        ${2:tab title}
+                        </a>
+                    </li>
+
+- trigger: bs-tab-contents
+  description: contents pane for Bootstrap tab
+  scope: html
+  mTime: 1457017945569
+  text: |
+        <div class="tab-pane" id="${1}">
+                        ${2:Tab Content}
+                    </div>
+
+- trigger: bs-nav-bar
+  description: Create a Bootstrap navbar component
+  scope: html
+  mTime: 1457437045132
+  text: |
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="navbar-header">
+            <!--  
+              This button will be shown if the screen size is too small, providing a better user interface on a mobile device
+              Note the value of data-target is a CSS selector; in this case the ID nav-bar must match the ID of the div
+              element below that contains the navigation links
+              -->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#${1:navbar id}">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>                
+              </div>
+        
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="${1}">
+                <ul class="nav navbar-nav">
+                  <!--  Each menu item is represented by an <li> element; only 1 should have the class active applied to it  -->
+                  <li class="active"><a href="#${2:link destintation}">${3:link text}</a></li>
+                </ul>
+              </div>
+              <!-- /.navbar-collapse -->
+            </nav>
+
+- trigger: bs-nav-dropdown
+  description: bootstrap dropdown navbar menu
+  scope: html
+  mTime: 1457451214697
+  text: |
+        <li class="dropdown">
+            <a href="" class="dropdown-toggle" data-toggle="dropdown">
+                ${1:Menu Label}<span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+                <li><a href="#${2:route}">${3:Label}</a></li>
+            </ul>
+        </li>
+
+- trigger: bs-nav-item
+  description: bootstrap navbar menu item
+  scope: html
+  mTime: 1457622133076
+  text: |
+        <li><a href="${1:route}">${2:Label}</a></li>${3}
+
+- trigger: bs-nav-divider
+  scope: html
+  mTime: 1457621883124
+  text: |
+        <li role="separator" class="divider"></li>
+
+- trigger: ng-route-when
+  description: Adds a new route into the configuration of ng-route
+  scope: javascript
+  mTime: 1457397373910
+  text: |
+        .when('/${1:url pattern}', {
+            templateUrl: '${2:page}.html'
+        })
+
+- trigger: ng-route
+  description: Add basic configuration call for a route in AngularJSj
+  scope: javascript
+  mTime: 1457315434652
+  text: |
+        ${1:app}.config(['$routeProvider', function ($routeProvider) {
+            $routeProvider
+                .when('/', {
+                    templateUrl: '${2}.html'
+                    }
+                )
+                ;
+        }]);
+
+- trigger: font-declaration
+  description: Declares a name for a font based on several files
+  scope: scss
+  mTime: 1457984126710
+  text: |
+        @font-face {
+          font-family: '${1}';
+          src: url('/lab7/fonts/${2}.eot');
+          src: url('/lab7/fonts/${2}.eot?#iefix') format('embedded-opentype'),
+               url('/lab7/fonts/${2}.woff') format('woff'),
+               url('/lab7/fonts/${2}.ttf') format('truetype'),
+               url('/lab7/fonts/${2}.svg#${1}') format('svg');
+        }${3}
+
